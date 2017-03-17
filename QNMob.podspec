@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
   s.source       = { :git => 'https://github.com/qiniu-mob/qiniu-mob-ios.git',
                      :tag => s.version}
   s.frameworks   = 'CoreFoundation'
-  s.libraries    = 'libobjc.A'
+  s.libraries    = 'objc'
   s.requires_arc = true
 
   s.source_files = 'QNMob/include/**/*.{h,m}'
