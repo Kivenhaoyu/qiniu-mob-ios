@@ -15,9 +15,9 @@ Pod::Spec.new do |s|
   s.libraries    = 'libobjc.A'
   s.requires_arc = true
 
-  s.dependency     'AWSCore', :git => 'https://github.com/qiniu-mob/awscore-ios.git'
+  s.dependency  'AWSCore', :git => 'https://github.com/qiniu-mob/awscore-ios.git'
 
-  s.source_files = 'Pod/QNMob/include/**/*.{h,m}'
-  s.public_header_files = 'Pod/QNMob/include/**/*.h'
-  s.vendored_libraries = 'Pod/QNMob/**/*.a'
+  s.source_files = 'QNMob/include/**/*.{h,m}'
+  s.public_header_files = 'QNMob/include/**/*.h'
+  s.vendored_libraries = 'QNMob/**/*.a'
 end
