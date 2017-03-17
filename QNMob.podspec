@@ -11,7 +11,6 @@ Pod::Spec.new do |s|
   s.platform     = :ios, '8.0'
   s.source       = { :git => 'https://github.com/qiniu-mob/qiniu-mob-ios.git',
                      :tag => s.version}
-  s.frameworks   = 'CoreFoundation'
   s.libraries    = 'objc'
   s.requires_arc = true
 
