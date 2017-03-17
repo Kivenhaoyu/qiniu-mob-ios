@@ -9,13 +9,11 @@ Pod::Spec.new do |s|
   s.license      = 'Apache License, Version 2.0'
   s.author       = { 'Qiniu Mobile Services' => 'qiniumobileservices' }
   s.platform     = :ios, '8.0'
-  s.source       = { :git => 'git@github.com:qiniu-mob/qiniu-mob-ios.git',
+  s.source       = { :git => 'https://github.com/qiniu-mob/qiniu-mob-ios.git',
                      :tag => s.version}
   s.frameworks   = 'CoreFoundation'
   s.libraries    = 'libobjc.A'
   s.requires_arc = true
-
-  s.dependency  'AWSCore', :git => 'https://github.com/qiniu-mob/awscore-ios.git'
 
   s.source_files = 'QNMob/include/**/*.{h,m}'
   s.public_header_files = 'QNMob/include/**/*.h'
